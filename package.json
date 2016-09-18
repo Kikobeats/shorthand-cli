@@ -1,0 +1,50 @@
+{
+  "name": "shorthand-cli",
+  "description": "Combine CSS properties into shorthand version when possible.",
+  "homepage": "https://github.com/Kikobeats/shorthand-cli",
+  "version": "0.0.0",
+  "bin": {
+    "shorthand": "./bin/index.js"
+  },
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/shorthand-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/shorthand-cli/issues"
+  },
+  "keywords": [
+    "css",
+    "shorthand",
+    "properties",
+    "cli"
+  ],
+  "dependencies": {
+    "concat-stream": "~1.5.2",
+    "meow": "~3.7.0",
+    "shrthnd": "~0.0.6",
+    "update-notifier": "~1.0.2"
+  },
+  "devDependencies": {
+    "git-dirty": "latest",
+    "standard": "latest"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "standard lib",
+    "pretest": "npm run lint",
+    "test": "exit 0"
+  },
+  "license": "MIT"
+}
