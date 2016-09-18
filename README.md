@@ -8,17 +8,41 @@
 
 > Combine CSS properties into shorthand version when possible.
 
+It converts stylesheet as:
+
+```css
+body {
+  background-image: url(/img/meow.jpg);
+  background-position: top center;
+  background-color: #ffffff;
+}
+```
+
+into short mode if is possible:
+
+```css
+body {
+  background: url(/img/meow.jpg) top center #fff;
+}
+```
+
 ## Install
 
 ```bash
 npm install shorthand-cli --global
 ```
 
-For know how to use, write `shorthand --help`
+## Usage
 
-## Related
+```bash
+$ shorthand
 
-- [fetch-timeline](https://github.com/Kikobeats/fetch-timeline) – Readable Stream that content tweets fetched from a Twitter user timeline.
+  Combine CSS properties into shorthand version when possible.
+
+  Usage:
+    $ shorthand [file]
+    $ cat style.css | shorthand
+```
 
 ## License
 
