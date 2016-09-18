@@ -1,3 +1,11 @@
+<a name="1.0.0"></a>
+# 1.0.0 (2016-09-18)
+
+* First commit ([76edb2d](https://github.com/kikobeats/shorthand-cli/commit/76edb2d))
+* update docs ([fc35102](https://github.com/kikobeats/shorthand-cli/commit/fc35102))
+
+
+
 <a name="0.3.7"></a>
 ## 0.3.7 (2016-07-31)
 

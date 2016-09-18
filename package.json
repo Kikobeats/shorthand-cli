@@ -2,7 +2,7 @@
   "name": "shorthand-cli",
   "description": "Combine CSS properties into shorthand version when possible.",
   "homepage": "https://github.com/Kikobeats/shorthand-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "bin": {
     "shorthand": "./bin/index.js"
   },
