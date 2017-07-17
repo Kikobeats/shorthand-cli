@@ -1,5 +1,7 @@
 # Shorthand CLI
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/shorthand-cli.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/shorthand-cli.svg?style=flat-square)
 [![Dependency status](http://img.shields.io/david/Kikobeats/shorthand-cli.svg?style=flat-square)](https://david-dm.org/Kikobeats/shorthand-cli)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/shorthand-cli.svg?style=flat-square)](https://david-dm.org/Kikobeats/shorthand-cli#info=devDependencies)
