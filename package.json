@@ -25,10 +25,10 @@
     "cli"
   ],
   "dependencies": {
-    "concat-stream": "~1.5.2",
+    "concat-stream": "~1.6.0",
     "meow": "~3.7.0",
     "shrthnd": "~0.0.6",
-    "update-notifier": "~1.0.2"
+    "update-notifier": "~2.2.0"
   },
   "devDependencies": {
     "git-dirty": "latest",
